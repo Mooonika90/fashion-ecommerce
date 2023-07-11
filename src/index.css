@@ -1,5 +1,4 @@
 
-
 html,
 body,
 div,
@@ -80,7 +79,6 @@ select {
   --light-grayish-blue: hsla(0, 0%, 98%, 0.922); 
   --white: hsl(0, 0%, 100%);
   --black : hsl(0, 0%, 0%)
-
 
 	--card-border: 1px solid var(--lavenda);
   
@@ -438,10 +436,10 @@ border-bottom: 1px solid var(--purple);
 color: var(--very-dark-blue);
 }
 .expand-btn::before{
-	content: "show more";
+	content: "more ↓";
 }
 .expand-btn:checked::before{
-	content: "hide" ;
+	content: "hide ↑" ;
 }
 
 .cutoff-text:has(+ .expand-btn:checked){
