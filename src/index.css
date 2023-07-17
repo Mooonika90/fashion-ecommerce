@@ -339,14 +339,12 @@ button,
   .products p {
 	color: var(--dark-grayish-blue);
   }
-  
   .products img {
 	width: 90%;
 	max-height: 60%;
 	object-fit: contain;
 	flex: 1 0;
   }
-
 section h2{
 	margin: 1rem;
 }
@@ -386,7 +384,6 @@ section h2{
 	overflow: hidden;
 	position: relative;
 	padding: 0.2rem;
-
 }
 .cutoff-text::before{
 	position: absolute;
@@ -487,11 +484,9 @@ color: var(--very-dark-blue);
 	background-color: transparent;
 	color: var(--very-dark-blue);
   }
-
   .cartPrice p {
 	display: inline;
   }
-
   .about-us ul{
 	display: flex;
 	margin: 2rem 0;
@@ -533,7 +528,6 @@ padding: var(--padding-size);
   .about-us .company{
 order:-1;
   }
-
   .contactus{
 	text-align: center;
   }
@@ -563,7 +557,7 @@ display: block;
 width: 30%;
 margin: 1rem auto;
  }
-  
+
   form label {
 	display: block;
 	text-align: left;
@@ -679,5 +673,11 @@ margin: 1rem auto;
 			}
 			.hero-text p{
 				font-size:var(--h3-font-size);
+			}
+			.expand-btn::before{
+				content: "more ";
+			}
+			.expand-btn:checked::before{
+				content: "hide " ;
 			}
 			}
