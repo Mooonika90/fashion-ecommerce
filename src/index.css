@@ -400,7 +400,7 @@ padding: 0 0.3rem;
 cursor: pointer;
 color: var(--dark-grayish-blue);
 transition: color 0.5s linear;
-border-bottom: 1px solid var(--purple);
+/* border-bottom: 1px solid var(--purple); */
 }
 
 .expand-btn:hover{
@@ -408,9 +408,11 @@ color: var(--very-dark-blue);
 }
 .expand-btn::before{
 	content: "more ↓";
+	border-bottom: 1px solid var(--purple);
 }
 .expand-btn:checked::before{
 	content: "hide ↑" ;
+	border-bottom: 1px solid var(--purple);
 }
 
 .cutoff-text:has(+ .expand-btn:checked){
@@ -580,7 +582,7 @@ margin: 1rem auto;
 	}
 	  #mainmenu .menu-icon {
 		display: block;
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 		color: var(--purple);
 	  }
 	  #mainmenu .nav-elements {
