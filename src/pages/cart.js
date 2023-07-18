@@ -30,7 +30,7 @@ export const Cart = () => {
 									<td>
 										<Link to={`/product/${item?.id}`}>
 											<img src={item.image} alt='' />
-											<h3>{item.title}</h3>
+											<h3 className='cutoff-text'>{item.title}</h3>
 										</Link>
 									</td>
 
