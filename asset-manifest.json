@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fashion-ecommerce/static/css/main.67dc98e6.css",
-    "main.js": "/fashion-ecommerce/static/js/main.e49d9eb4.js",
+    "main.css": "/fashion-ecommerce/static/css/main.761a304b.css",
+    "main.js": "/fashion-ecommerce/static/js/main.ba73cd3c.js",
     "static/js/787.8b653544.chunk.js": "/fashion-ecommerce/static/js/787.8b653544.chunk.js",
     "static/media/clothes-big.jpg": "/fashion-ecommerce/static/media/clothes-big.47266f8906a041f119fc.jpg",
     "static/media/jewelery-big.jpg": "/fashion-ecommerce/static/media/jewelery-big.26e2fab77f2c07e93922.jpg",
@@ -11,12 +11,12 @@
     "static/media/jewelery-small.jpg": "/fashion-ecommerce/static/media/jewelery-small.f1580d9bd8e20ce09872.jpg",
     "static/media/contact.jpg": "/fashion-ecommerce/static/media/contact.b6df9be71a650f54a396.jpg",
     "index.html": "/fashion-ecommerce/index.html",
-    "main.67dc98e6.css.map": "/fashion-ecommerce/static/css/main.67dc98e6.css.map",
-    "main.e49d9eb4.js.map": "/fashion-ecommerce/static/js/main.e49d9eb4.js.map",
+    "main.761a304b.css.map": "/fashion-ecommerce/static/css/main.761a304b.css.map",
+    "main.ba73cd3c.js.map": "/fashion-ecommerce/static/js/main.ba73cd3c.js.map",
     "787.8b653544.chunk.js.map": "/fashion-ecommerce/static/js/787.8b653544.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67dc98e6.css",
-    "static/js/main.e49d9eb4.js"
+    "static/css/main.761a304b.css",
+    "static/js/main.ba73cd3c.js"
   ]
 }
