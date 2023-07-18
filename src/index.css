@@ -435,7 +435,7 @@ color: var(--very-dark-blue);
   }
   .cart tbody td {
 	padding: 2rem 0.5rem;
-	margin: auto;
+
   }
 
   .cart  a{
@@ -646,8 +646,8 @@ margin: 1rem auto;
 	}
 	.about-us img{
 		width: 100%;
-	
-		  }.cart td,
+		  }
+		  .cart td,
 		  .cart th:last-child,
 		.cart td:last-child{
 			text-align: center;
@@ -669,12 +669,14 @@ margin: 1rem auto;
 			overflow: hidden;
 			text-align: center;
 		}
-		/* .cartQuantity{
-			display: flex;
-			justify-content: flex-end;
-		    align-items: center;
-			flex-direction: column;
-		} */
+		.cartQuantity span {
+			padding: 0;
+		  }
+	.cart button {
+		font-size: 0.7rem;
+		background:transparent;
+		color: var(--very-dark-blue);
+	}
 			.women{
 				background-image:url('./assets/clothes-small.jpg') ;}
 			.jewelery{
