@@ -66,7 +66,7 @@ export const Cart = () => {
 						<tr>
 							<td colSpan={2}>Total Price: ${cartTotal.toFixed(2)}</td>
 							<td>
-								<button onClick={emptyCart}>Clear Cart</button>
+								<button onClick={emptyCart}>Clear</button>
 							</td>
 						</tr>
 					</tfoot>

@@ -448,21 +448,17 @@ color: var(--very-dark-blue);
   .cart tbody tr:hover {
 	background-color: #f5f5f5;
   }
-  
   .cart img {
 	width: 4rem;
 	vertical-align: middle;
   }
-  
   .cart h3 {
 	margin: 0;
 	padding-left: 0.6rem;
   }
-  
   .cartQuantity span {
 	padding: 0 0.4rem;
   }
-  
   .cart th:last-child,
   .cart td:last-child {
 	text-align: right;
@@ -475,7 +471,6 @@ color: var(--very-dark-blue);
 	text-align: right;
 	font-weight: bold;
   }
-  
   .cart td h3 {
 	display: inline;
 	margin: 0;
@@ -529,7 +524,6 @@ background-color: var(--lavenda);
   .about-us article div{
 padding: var(--padding-size);
   }
-
   .about-us .company{
 order:-1;
   }
@@ -541,7 +535,6 @@ order:-1;
 	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 	width: min(100% - 2rem, 40rem);
 	margin-inline: auto;
-
   }
   fieldset{
 	padding: var(--padding-size);
@@ -555,7 +548,6 @@ order:-1;
  form  header h3 {
 	font-size: var(--h2-font-size);
 	margin: var(--margin-size);
-
  }
  form  header img {
 display: block;
@@ -569,7 +561,6 @@ margin: 1rem auto;
 	font-size: var(--h3-font-size);
 	margin: var(--margin-size);
   }
-  
   .contactus input, select, textarea {
 	width: 100%;
   } 
@@ -672,8 +663,7 @@ margin: 1rem auto;
 		.cartQuantity span {
 			padding: 0;
 		  }
-	.cart button {
-		font-size: 0.7rem;
+	.cart tbody button {
 		background:transparent;
 		color: var(--very-dark-blue);
 	}
