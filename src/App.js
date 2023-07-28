@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollUp from './components/ScrollUp';
 
 import HomePage from './pages/index';
 import Product from './pages/product';
@@ -29,7 +30,7 @@ function App() {
 						<Route path={'/'} element={<HomePage />} />
 					</Routes>
 				</main>
-
+				<ScrollUp />
 				<Footer />
 			</CartProvider>
 		</div>
